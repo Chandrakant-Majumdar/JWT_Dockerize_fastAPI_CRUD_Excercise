@@ -17,7 +17,7 @@ docker pull chandrka54/jwt-dockerize-crud-excercise:latest
 ### 2. Run the Docker Container
 
 ```bash
-docker run -d -p 8000:8000 chandrka54/jwt-dockerize-crud-excercise:latest
+docker run -it -p 8000:8000 chandrka54/jwt-dockerize-crud-excercise:latest
 ```
 
 - The API will be available at [http://localhost:8000](http://localhost:8000)
@@ -132,7 +132,7 @@ If you want to run the app locally (without Docker):
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Chandrakant-Majumdar/JWT_Dockerize_fastAPI_CRUD_Excercise.git
+   git clone https://github.com/Chandrakant-Majumdar/JWT_Dockerize_fastAPI_CRUD_Excercise
    cd fastAPI_CRUD_Excercise/JWT_Dockerize_fastAPI_CRUD_Excercise
    ```
 2. Create a virtual environment and activate it:
